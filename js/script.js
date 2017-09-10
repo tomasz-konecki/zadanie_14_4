@@ -52,7 +52,7 @@ var MovieItem = React.createClass({
     render: function() {
         return React.createElement('li', {
             key: this.props.film.id
-        }, this.props.film.id);
+        });
     }
 });
 
