@@ -43,20 +43,6 @@ var movies = [{
 ];
 
 // ---------------------------------------------------------------------------------------
-var MovieItem = React.createClass({
-
-    propTypes: {
-        film: React.PropTypes.object.isRequired
-    },
-
-    render: function() {
-        return React.createElement('li', {
-            key: this.props.film.id
-        });
-    }
-});
-
-// ---------------------------------------------------------------------------------------
 var MovieTitle = React.createClass({
 
     propTypes: {
